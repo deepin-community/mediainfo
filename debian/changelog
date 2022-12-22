@@ -1,0 +1,438 @@
+mediainfo (22.06-1) unstable; urgency=medium
+
+  * [c18d576] New upstream version 22.06
+
+ -- Chow Loong Jin <hyperair@debian.org>  Mon, 27 Jun 2022 23:18:32 +0800
+
+mediainfo (22.03-1) unstable; urgency=medium
+
+  * [145b8df] New upstream version 22.03
+
+ -- Chow Loong Jin <hyperair@debian.org>  Sun, 03 Apr 2022 22:38:34 +0800
+
+mediainfo (21.09-1) unstable; urgency=medium
+
+  * [56a76ae] New upstream version 21.09
+
+ -- Chow Loong Jin <hyperair@debian.org>  Sat, 02 Oct 2021 17:45:12 +0800
+
+mediainfo (21.03-1) unstable; urgency=medium
+
+  * [8402da1] New upstream version 21.03
+
+ -- Chow Loong Jin <hyperair@debian.org>  Sat, 27 Mar 2021 16:55:31 +0800
+
+mediainfo (20.09-1) unstable; urgency=medium
+
+  * [e6f3bbd] New upstream version 20.09
+
+ -- Chow Loong Jin <hyperair@debian.org>  Tue, 13 Oct 2020 23:23:31 +0800
+
+mediainfo (20.08-1) unstable; urgency=medium
+
+  * [35543ac] New upstream version 20.08
+
+ -- Chow Loong Jin <hyperair@debian.org>  Sun, 16 Aug 2020 20:49:32 +0800
+
+mediainfo (20.03-1) unstable; urgency=medium
+
+  * [8d762ef] New upstream version 20.03
+  * [1224b97] Bump debhelper-compat to 12
+  * [d24a99c] Bump Standards-Version to 4.4.1
+  * [06d0a28] Move --fail-missing flag to dh_missing
+  * [9a09300] Drop unnecessary dh flags and build-deps
+    --with=autoreconf and --parallel are default now, so we don't need those
+    flags
+
+ -- Chow Loong Jin <hyperair@debian.org>  Sat, 11 Apr 2020 23:17:44 +0800
+
+mediainfo (19.09-1) unstable; urgency=medium
+
+  [ Ondřej Nový ]
+  * Use debhelper-compat instead of debian/compat.
+
+  [ Chow Loong Jin ]
+  * [ac418cd] New upstream version 19.09
+
+ -- Chow Loong Jin <hyperair@debian.org>  Tue, 26 Nov 2019 12:09:30 +0800
+
+mediainfo (19.04-1) experimental; urgency=medium
+
+  * [fba3172] New upstream version 19.04
+  * [ab4e0c8] Update debian/copyright for metainfo file
+
+ -- Chow Loong Jin <hyperair@debian.org>  Thu, 06 Jun 2019 11:32:22 +0800
+
+mediainfo (18.12-2.1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * debian/control: Update to build using libwxgtk3.0-gtk3-dev.
+    (Closes: #933426)
+
+ -- Olly Betts <olly@survex.com>  Tue, 15 Oct 2019 15:57:11 +1300
+
+mediainfo (18.12-2) unstable; urgency=medium
+
+  [ Ondřej Nový ]
+  * [aa0bfe1] d/copyright: Use https protocol in Format field
+
+ -- Chow Loong Jin <hyperair@debian.org>  Thu, 27 Dec 2018 15:29:43 +0800
+
+mediainfo (18.12-1) unstable; urgency=medium
+
+  * [99b0e56] New upstream version 18.12
+
+ -- Chow Loong Jin <hyperair@debian.org>  Tue, 25 Dec 2018 23:50:15 +0800
+
+mediainfo (18.08.1-1) unstable; urgency=medium
+
+  * [8edda6a] New upstream version 18.08.1
+
+ -- Chow Loong Jin <hyperair@debian.org>  Tue, 16 Oct 2018 02:35:53 +0800
+
+mediainfo (18.05-1) unstable; urgency=medium
+
+  * [7737a98] New upstream version 18.05
+
+ -- Chow Loong Jin <hyperair@debian.org>  Sun, 13 May 2018 15:49:55 +0800
+
+mediainfo (18.03.1-2) UNRELEASED; urgency=medium
+
+  * d/copyright: Use https protocol in Format field
+
+ -- Ondřej Nový <onovy@debian.org>  Wed, 25 Apr 2018 10:33:36 +0200
+
+mediainfo (18.03.1-1) unstable; urgency=medium
+
+  * [ce32f3a] New upstream version 18.03.1
+
+ -- Chow Loong Jin <hyperair@debian.org>  Mon, 16 Apr 2018 22:22:17 +0800
+
+mediainfo (18.03-1) unstable; urgency=medium
+
+  * [923aaf9] New upstream version 18.03
+  * [882daa8] Update Vcs-* fields for port to salsa
+
+ -- Chow Loong Jin <hyperair@debian.org>  Sun, 01 Apr 2018 15:42:09 +0800
+
+mediainfo (17.12-1) unstable; urgency=medium
+
+  * [e4695f4] New upstream version 17.12
+
+ -- Chow Loong Jin <hyperair@debian.org>  Sat, 20 Jan 2018 00:08:30 +0800
+
+mediainfo (17.10-1) unstable; urgency=medium
+
+  * [504cb38] New upstream version 17.10
+  * [0c416fa] Update install file
+    mediainfo-gui.appdata.xml is now properly installed in /usr/share/metainfo.
+  * [9cd5fbc] Bump Standards-Version to 4.1.1
+
+ -- Chow Loong Jin <hyperair@debian.org>  Sat, 04 Nov 2017 00:20:51 +0800
+
+mediainfo (0.7.99-1) unstable; urgency=medium
+
+  * [072a403] New upstream version 0.7.99
+  * [59f1eff] Build-dep on rename for prename utility (Closes: #874212)
+  * [bbf26b0] Use file-rename instead of prename
+  * [b6c2f91] Move mediainfo-gui.appdata.xml into /usr/share/metainfo
+
+ -- Chow Loong Jin <hyperair@debian.org>  Sun, 17 Sep 2017 13:36:04 +0800
+
+mediainfo (0.7.98-1) unstable; urgency=medium
+
+  * [400e567] New upstream version 0.7.98
+
+ -- Chow Loong Jin <hyperair@debian.org>  Tue, 15 Aug 2017 23:53:50 +0800
+
+mediainfo (0.7.97-1) unstable; urgency=medium
+
+  * [dcb1e11] New upstream version 0.7.97
+
+ -- Chow Loong Jin <hyperair@debian.org>  Fri, 14 Jul 2017 01:51:06 +0800
+
+mediainfo (0.7.96-1) experimental; urgency=medium
+
+  * [2c61636] New upstream version 0.7.96
+
+ -- Chow Loong Jin <hyperair@debian.org>  Sun, 04 Jun 2017 01:34:40 +0800
+
+mediainfo (0.7.95-1) experimental; urgency=medium
+
+  * [fab093b] New upstream version 0.7.95
+
+ -- Chow Loong Jin <hyperair@debian.org>  Mon, 08 May 2017 01:26:04 +0800
+
+mediainfo (0.7.94-1) experimental; urgency=medium
+
+  * [d39a96a] Imported Upstream version 0.7.94
+
+ -- Chow Loong Jin <hyperair@debian.org>  Thu, 06 Apr 2017 02:35:06 +0800
+
+mediainfo (0.7.93-1) experimental; urgency=medium
+
+  * [a3ed091] Imported Upstream version 0.7.93
+
+ -- Chow Loong Jin <hyperair@debian.org>  Fri, 10 Mar 2017 23:13:14 +0800
+
+mediainfo (0.7.92.1-1) experimental; urgency=medium
+
+  * [688763e] Imported Upstream version 0.7.92.1
+
+ -- Chow Loong Jin <hyperair@debian.org>  Fri, 03 Feb 2017 01:25:57 +0800
+
+mediainfo (0.7.92-1) UNRELEASED; urgency=medium
+
+  * [964975c] Imported Upstream version 0.7.92
+  * [7ad3c64] Update mediainfo-gui.install
+
+ -- Chow Loong Jin <hyperair@debian.org>  Thu, 02 Feb 2017 10:02:49 +0800
+
+mediainfo (0.7.91-1) unstable; urgency=medium
+
+  * [66d797c] Imported Upstream version 0.7.91
+
+ -- Chow Loong Jin <hyperair@debian.org>  Mon, 19 Dec 2016 17:26:37 +0800
+
+mediainfo (0.7.88-1) unstable; urgency=medium
+
+  * [9ea5e69] Imported Upstream version 0.7.88
+
+ -- Chow Loong Jin <hyperair@debian.org>  Thu, 01 Sep 2016 23:35:20 +0800
+
+mediainfo (0.7.87-1) unstable; urgency=medium
+
+  * [fe58c72] Imported Upstream version 0.7.87
+
+ -- Chow Loong Jin <hyperair@debian.org>  Mon, 29 Aug 2016 01:10:15 +0800
+
+mediainfo (0.7.85-1) unstable; urgency=medium
+
+  * [55e5772] Imported Upstream version 0.7.85
+
+ -- Chow Loong Jin <hyperair@debian.org>  Thu, 16 Jun 2016 17:25:04 +0800
+
+mediainfo (0.7.84-1) unstable; urgency=medium
+
+  * [4598ad5] Imported Upstream version 0.7.84
+  * [7db205e] Bump Standards-Version to 3.9.7
+
+ -- Chow Loong Jin <hyperair@debian.org>  Sat, 09 Apr 2016 21:33:16 +0800
+
+mediainfo (0.7.83-1) unstable; urgency=medium
+
+  * [4b938e8] Imported Upstream version 0.7.83
+
+ -- Chow Loong Jin <hyperair@debian.org>  Sat, 05 Mar 2016 02:23:54 +0800
+
+mediainfo (0.7.82-1) unstable; urgency=medium
+
+  * [9cd500b] Imported Upstream version 0.7.82
+
+ -- Chow Loong Jin <hyperair@debian.org>  Mon, 01 Feb 2016 01:21:44 +0800
+
+mediainfo (0.7.81-1) unstable; urgency=medium
+
+  * [f8f8404] Imported Upstream version 0.7.81
+
+ -- Chow Loong Jin <hyperair@debian.org>  Mon, 11 Jan 2016 01:35:33 +0800
+
+mediainfo (0.7.80-1) unstable; urgency=medium
+
+  * [fefd3c2] Imported Upstream version 0.7.80
+  * [58a2695] Make mediainfo suggest mediainfo-gui.
+    Thanks to Christoph Anton Mitterer <calestyo@scientia.net> (Closes: #734520)
+
+ -- Chow Loong Jin <hyperair@debian.org>  Mon, 07 Dec 2015 02:28:17 +0800
+
+mediainfo (0.7.79-1) unstable; urgency=medium
+
+  * [73fb5be] Imported Upstream version 0.7.79
+  * [2720d8f] Update watch file
+  * [dab8392] Update homepage
+
+ -- Chow Loong Jin <hyperair@debian.org>  Fri, 06 Nov 2015 19:07:17 +0800
+
+mediainfo (0.7.78-1) unstable; urgency=medium
+
+  * [fe1aafd] Imported Upstream version 0.7.78
+
+ -- Chow Loong Jin <hyperair@debian.org>  Mon, 05 Oct 2015 03:42:44 +0800
+
+mediainfo (0.7.77-1) unstable; urgency=medium
+
+  * [a70e2ed] Imported Upstream version 0.7.77
+
+ -- Chow Loong Jin <hyperair@debian.org>  Sun, 20 Sep 2015 18:57:38 +0800
+
+mediainfo (0.7.76-1) experimental; urgency=medium
+
+  * [f0b8f3d] Install appdata file
+  * [dfba336] Imported Upstream version 0.7.76
+  * [734ad56] Update copyright years and relicense packaging to BSD-2-clause
+
+ -- Chow Loong Jin <hyperair@debian.org>  Fri, 21 Aug 2015 16:44:33 +0800
+
+mediainfo (0.7.73-1) experimental; urgency=medium
+
+  * [f582c56] Imported Upstream version 0.7.73
+
+ -- Chow Loong Jin <hyperair@debian.org>  Mon, 20 Apr 2015 02:03:23 +0800
+
+mediainfo (0.7.72-1) experimental; urgency=medium
+
+  * [5b41f78] Imported Upstream version 0.7.72
+
+ -- Chow Loong Jin <hyperair@debian.org>  Thu, 15 Jan 2015 12:28:40 +0800
+
+mediainfo (0.7.71-1) experimental; urgency=medium
+
+  * [7134f89] Imported Upstream version 0.7.71
+  * [032e00e] No-change bump of Standards-Version to 3.9.6
+
+ -- Chow Loong Jin <hyperair@debian.org>  Mon, 24 Nov 2014 11:00:54 +0800
+
+mediainfo (0.7.70-1) unstable; urgency=medium
+
+  * [b20412e] Imported Upstream version 0.7.70
+
+ -- Chow Loong Jin <hyperair@debian.org>  Thu, 18 Sep 2014 19:03:32 +0800
+
+mediainfo (0.7.69-1) unstable; urgency=medium
+
+  * [17045c0] Imported Upstream version 0.7.69
+
+ -- Chow Loong Jin <hyperair@debian.org>  Mon, 05 May 2014 03:26:27 +0800
+
+mediainfo (0.7.68-1) unstable; urgency=medium
+
+  * [fc903ce] Imported Upstream version 0.7.68
+
+ -- Chow Loong Jin <hyperair@debian.org>  Sat, 12 Apr 2014 23:26:49 +0800
+
+mediainfo (0.7.67-1.1) unstable; urgency=low
+
+  * Non-maintainer upload.
+  * Update to build with wxWidgets 3.0.
+
+ -- Olly Betts <olly@survex.com>  Mon, 17 Mar 2014 01:27:40 +1300
+
+mediainfo (0.7.67-1) unstable; urgency=low
+
+  * [9875916] Imported Upstream version 0.7.67
+  * [8df7ba4] No-change bump of Standards-Version to 3.9.5
+
+ -- Chow Loong Jin <hyperair@debian.org>  Tue, 14 Jan 2014 02:04:49 +0800
+
+mediainfo (0.7.65-1) unstable; urgency=low
+
+  * [7efedad] Imported Upstream version 0.7.65
+
+ -- Chow Loong Jin <hyperair@debian.org>  Sun, 01 Dec 2013 23:15:20 +0800
+
+mediainfo (0.7.64-1) unstable; urgency=low
+
+  * [490aeb4] Imported Upstream version 0.7.64
+  * [f6356bd] Update copyright
+
+ -- Chow Loong Jin <hyperair@debian.org>  Wed, 10 Jul 2013 01:06:48 +0800
+
+mediainfo (0.7.63-1) unstable; urgency=low
+
+  * [fb15622] Imported Upstream version 0.7.63pe
+
+ -- Chow Loong Jin <hyperair@debian.org>  Fri, 17 May 2013 21:38:53 +0800
+
+mediainfo (0.7.62-1) experimental; urgency=low
+
+  * [7275af9] Imported Upstream version 0.7.62
+  * [4b68523] No-change bump of Standards-Version to 3.9.4
+
+ -- Chow Loong Jin <hyperair@debian.org>  Mon, 11 Mar 2013 22:45:25 +0800
+
+mediainfo (0.7.61-1) experimental; urgency=low
+
+  * [87a00e0] Imported Upstream version 0.7.61
+  * [7e36e66] Bump version in libmediainfo-dev dependency
+
+ -- Chow Loong Jin <hyperair@debian.org>  Sun, 28 Oct 2012 04:31:09 +0800
+
+mediainfo (0.7.60-1) experimental; urgency=low
+
+  * [797d551] Imported Upstream version 0.7.60
+
+ -- Chow Loong Jin <hyperair@debian.org>  Tue, 04 Sep 2012 21:53:46 +0800
+
+mediainfo (0.7.59-1) experimental; urgency=low
+
+  * [7a959c6] Update build-dep versions
+    - Bump libmediainfo-dev version to 0.7.58
+    - Bump libzen-dev version to 0.4.25
+  * [9d8fd34] Fix typo in manpage (Dislpay -> Display)
+    Thanks to Gerben
+  * [41ea7ed] Strip debian revision from upstream version
+  * [882e544] Imported Upstream version 0.7.59
+  * [9a918ca] Bump libmediainfo-dev dependency to 0.7.59
+
+ -- Chow Loong Jin <hyperair@debian.org>  Sun, 19 Aug 2012 20:43:25 +0800
+
+mediainfo (0.7.58-1) unstable; urgency=low
+
+  * [e07a210] Imported Upstream version 0.7.58
+
+ -- Chow Loong Jin <hyperair@debian.org>  Sun, 03 Jun 2012 15:20:12 +0800
+
+mediainfo (0.7.57-1) unstable; urgency=low
+
+  * [7f970de] Imported Upstream version 0.7.57
+
+ -- Chow Loong Jin <hyperair@debian.org>  Fri, 25 May 2012 09:18:37 +0800
+
+mediainfo (0.7.56-2) unstable; urgency=low
+
+  * [7624c6d] Replace LDFLAGS use with DEB_LDFLAGS_MAINT_APPEND.
+    This avoids overriding the hardening build flags from dpkg-buildflags.
+    Thanks to Simon Ruderich (Closes: #670758)
+
+ -- Chow Loong Jin <hyperair@debian.org>  Sun, 29 Apr 2012 04:20:38 +0800
+
+mediainfo (0.7.56-1) unstable; urgency=low
+
+  * [7f5c284] Update watch url (use sf.net)
+  * [08b8716] Imported Upstream version 0.7.54
+  * [f5d61bb] Imported Upstream version 0.7.56
+  * [9093973] Bump Standards-Version to 3.9.3
+    - Update debian/copyright Format URL
+  * [bf37e84] Bump debhelper compat level to 9 for buildflags
+  * [36422a0] Update copyright date and remove FIXME section
+
+ -- Chow Loong Jin <hyperair@debian.org>  Sun, 22 Apr 2012 21:38:10 +0800
+
+mediainfo (0.7.53-2) unstable; urgency=low
+
+  * [80f090f] Add --with=autoreconf to clean rule.
+    This fixes issues with autotools files left behind after debian/rules clean
+
+ -- Chow Loong Jin <hyperair@debian.org>  Sun, 29 Jan 2012 07:02:56 +0800
+
+mediainfo (0.7.53-1) unstable; urgency=low
+
+  * [1cfec75] Add watchfile
+  * [8c31015] Drop gbp.conf.
+    Pristine-tar doesn't need to be disabled now that we're using gz
+    tarballs. Apparently pristine-gz throws the entire tarball into the branch
+    if it can't regenerate it.
+  * [c2cbae6] Imported Upstream version 0.7.53
+  * [596a055] Drop debian/
+  * [7b93157] Enable parallel builds
+  * [8e18ec2] Correct path to Resource in mediainfo-gui.install
+
+ -- Chow Loong Jin <hyperair@debian.org>  Thu, 26 Jan 2012 12:04:30 +0800
+
+mediainfo (0.7.52-1) unstable; urgency=low
+
+  * Initial release (Closes: #653894)
+    - Packaging based on initial upstream debian/ directory
+
+ -- Chow Loong Jin <hyperair@debian.org>  Sun, 01 Jan 2012 18:14:37 +0800
+
